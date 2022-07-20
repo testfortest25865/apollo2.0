@@ -1217,6 +1217,11 @@ body {
   line-height: 29px;
 }
 
+.top_footer_t li a:hover{
+  text-decoration: none;
+  color: #ff0000;
+}
+
 .bottom_footer_t {
   text-align: center;
   margin-top: 50px;
@@ -1249,6 +1254,7 @@ body {
 .phone_m_link_footer_t:hover {
   text-decoration: none;
   color: #fff;
+  box-shadow: 0 0 10px #d03333;
 }
 
 @media (max-width: 500px) {
